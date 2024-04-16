@@ -1,0 +1,13 @@
+[
+  {
+    "id": "10d2be5d-a618-4edd-8f17-8466389deeb1",
+    "code": "A1",
+    "status": true,
+    "title": "Producto Prueba 1",
+    "category": "Categoria Prueba1",
+    "description": "Descripcion Prueba 1",
+    "price": 1000,
+    "thumbnail": "img.jpg",
+    "stock": 20
+  }
+]

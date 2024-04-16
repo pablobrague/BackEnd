@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Listado de Productos
+        </div>
+        <!-- FILTROS -->
+        <div id="accordionExample">
+            <div>
+                <h2 id="headingOne">
+                   <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Filtros
+                   </button>
+                </h2>
+                <div id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div>
+                        <label for="comboPages">Productos por página</label>
+                        <select id="comboPages">
+                            <!-- Opciones del combo -->
+                        </select>
+                        <label for="comboCategorias">Categoría</label>
+                        <select id="comboCategorias">
+                            <!-- Opciones del combo -->
+                        </select>
+                        <label for="comboOrden">Orden</label>
+                        <select id="comboOrden">
+                            <!-- Opciones del combo -->
+                        </select>
+                        <button type="button" id="applyFilter">Filtrar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-body">
+                   <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Descripción</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Stock</th>
+                            <th scope="col">Agregar al Carrito</th>
+                        </tr>
+                    </thead>
+                    <tbody id="contenedorProductos">
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="card-footer">
+              <div>
+                <nav aria-label="Page navigation example">
+                    <ul id="navBar">
+                        <li >
+                            <a>Anterior</a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li>
+                            <a href="#">Siguiente</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script defer type="module" src="/static/js/index1.js"></script>
